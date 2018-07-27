@@ -1,42 +1,149 @@
-html {
-	width:100%;
-	height:100%;
+body {
+	background: white;
+	font-family: 'Raleway', sans-serif;
+}
+/*Header and menu*/
+#top-menu {
+	top:0;
+	border-bottom: 1px solid grey;
+
+}
+
+.navbar-brand {
+	font-family: 'Fjalla One', sans-serif;
+	font-size:2em;
+	color: #575a5b;
+}
+
+.name {
 	
-}
-body{
-	position:relative;
-	background: white url(landingbg.jpg) no-repeat fixed top center;
-	/*margin-top:auto;*/
-	text-align:center;
-	height:100%;
-
+	color: #1c4074;
 }
 
-.container {
-	font-family: 'Open Sans Condensed', sans-serif;
-	height:100%;
-	display:flex;
-	flex-direction:column;
-	justify-content:center;
-	align-items:center;
+.navbar {
+	background-color: white;
 }
 
-h1{
-	font-size: 60pt;
-	color: white;
-	text-shadow: 2px 2px 4px black;
+.navbar-nav a{
+	font-family: 'Nanum Gothic', sans-serif;
+	color: grey;
+	font-size: 1.5em;
 }
-h2{
-	font-size: 45pt;
-	color: white;
-	text-shadow: 2px 2px 4px black;
+.navbar-nav a:hover{
+	font-family: 'Nanum Gothic', sans-serif;
+	color: #1c4074;
+	font-size: 1.5em;
 }
 
-.btn {
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-	background-color: orange;
-	border:1px solid orange;
-	margin-top:10%;
+/*Main Image*/
+#home {
+	background: #d6d6d6;
+	width:100;
+	color: black;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 30px;
+	border-bottom: 1px solid grey;
 }
+
+/*Profile section*/
+
+#profile {
+	padding-bottom: 30px;
+	border-bottom: 1px solid grey;
+}
+
+.profile-text {
+	padding-top:10px;
+	padding-bottom:10px;
+	background: #d6d6d6;
+	border-radius:10px;
+}
+
+/*Skills Section*/
+#skills {
+	padding-bottom: 30px;
+	border-bottom: 1px solid grey;
+}
+
+.skills-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:5px;
+	padding-right:5px;
+	background: #d6d6d6;
+	border-radius:10px;
+}
+
+/*Projects Section*/
+.project {
+	display:inline;
+	padding-top:10px;
+}
+
+.project h2 {
+	padding-left:10px;
+}
+
+.project a {
+	font-size: 1.25em;
+	padding-right:10px;
+	color: #575a5b;
+}
+
+.project a:hover {
+	padding-right:10px;
+	text-decoration:none;
+	color: #1c4074;
+}
+
+.project-title {
+	background: #d6d6d6;
+	border-radius: 10px;
+}
+
+.project-text {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.project-tech {
+	border-top: 1px solid grey;
+	padding-right:10px;
+	color: #1c4074;
+	font-weight:bold;
+}
+
+.login {
+	color: #575a5b;
+	font-weight: bold;
+}
+
+/*Footer Section*/
+#footer {
+	background: #d6d6d6;
+}
+
+.footer-link {
+	font-size: 1.25em;
+	padding-right:10px;
+	color: #575a5b;
+}
+
+.footer-link:hover{
+	font-size: 1.25em;
+	text-decoration:none;
+	padding-right:10px;
+	color: #1c4074;
+}
+
+h1 {
+	color: #575a5b;
+	padding-bottom:10px;
+}
+/*
+Available Google Fonts
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+*/
