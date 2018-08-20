@@ -107,6 +107,18 @@ body {
 	padding-bottom: 10px;
 }
 
+.project-text a {
+	padding-right:10px;
+	color: #575a5b;
+}
+
+.project-text a:hover {
+	padding-right:10px;
+	text-decoration:none;
+	color: #1c4074;
+}
+
+
 .project-tech {
 	border-top: 1px solid grey;
 	padding-right:10px;
